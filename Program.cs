@@ -49,8 +49,11 @@ namespace ListaUm
 
 
             //Albuns
+            List<Album> albuns = new List<Album>();
             Album bestOfLudovico = new Album("Best of Ludovico", "Classica", new DateTime(2022), "So as melhores", Ludovico_Einaudi, Hans_Zimmer);
             Album AmericanIV = new Album("American IV", "Country", new DateTime(2002), "Covers Johnny Cash", Johnny_Cash, Hans_Zimmer);
+            albuns.Add(bestOfLudovico);
+            albuns.Add(AmericanIV);
 
             bestOfLudovico.AddMusica(Experience);
             bestOfLudovico.AddMusica(Giorni_Dispari);
@@ -69,7 +72,7 @@ namespace ListaUm
             Hans_Zimmer.AddAlbum(AmericanIV);
 
             //Testes
-            Busca busca = new Busca();
+            Console.WriteLine(busca.AlbunsAno());
             busca.AlbunsArtista(artistas, "Ludovico Einaudi");
             //Console.WriteLine(busca.AlbunsArtista(artistas, "Ludovico Einaudi"));
             Console.ReadLine();

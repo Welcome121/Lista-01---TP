@@ -8,7 +8,7 @@ namespace ListaUm
 {
     public class Busca
     {
-        public void AlbunsArtista(List<Artista> artistas, string nome)
+        static void AlbunsArtista(List<Artista> artistas, string nome)
         {
             var resultados = from artista in artistas
                             from album in artista.albuns
@@ -19,6 +19,15 @@ namespace ListaUm
             {
                 Console.WriteLine(resultado.nome);
             }
+        }
+
+        static List<Album> AlbunsAno(List<Album> albuns, DateTime data)
+        {
+            var resultados = (from album in albuns
+                            where album.dataLancamento == data
+                            select album).ToList();
+                            
+            return resultados;
         }
     }
 }
