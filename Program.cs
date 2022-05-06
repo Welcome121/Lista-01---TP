@@ -72,7 +72,7 @@ namespace ListaUm
             Hans_Zimmer.AddAlbum(AmericanIV);
 
             //Testes
-            Console.WriteLine(busca.AlbunsAno());
+            busca.AlbunsAno(albuns, new DateTime(2002));
             busca.AlbunsArtista(artistas, "Ludovico Einaudi");
             //Console.WriteLine(busca.AlbunsArtista(artistas, "Ludovico Einaudi"));
             Console.ReadLine();
