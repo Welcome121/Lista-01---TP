@@ -7,3 +7,5 @@ C:/Users/Gabriel/source/repos/Lista 01/obj/Debug/Lista 01.exe
 C:/Users/Gabriel/source/repos/Lista 01/obj/Debug/Lista 01.pdb
 /home/2020952151/TP/Lista-01---TP/obj/Debug/Lista 01.exe
 /home/2020952151/TP/Lista-01---TP/obj/Debug/Lista 01.pdb
+/home/coltec/TP/Lista-01---TP/obj/Debug/Lista 01.exe
+/home/coltec/TP/Lista-01---TP/obj/Debug/Lista 01.pdb
