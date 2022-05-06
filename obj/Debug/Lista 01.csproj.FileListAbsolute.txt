@@ -1,0 +1,7 @@
+C:\Users\Gabriel\source\repos\Lista 01\obj\Debug\Lista 01.csproj.AssemblyReference.cache
+C:\Users\Gabriel\source\repos\Lista 01\obj\Debug\Lista 01.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\Lista 01\bin\Debug\Lista 01.exe.config
+C:\Users\Gabriel\source\repos\Lista 01\bin\Debug\Lista 01.exe
+C:\Users\Gabriel\source\repos\Lista 01\bin\Debug\Lista 01.pdb
+C:\Users\Gabriel\source\repos\Lista 01\obj\Debug\Lista 01.exe
+C:\Users\Gabriel\source\repos\Lista 01\obj\Debug\Lista 01.pdb
