@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 public class Musica
 {
-    string nome;
-    double duracao;
-    string generoMusical;
-    DateTime lancamento;
+    public string nome;
+    public double duracao;
+    public string generoMusical;
+    public DateTime lancamento;
 
     public Musica(string nome, double duracao, string generoMusical, DateTime lancamento)
     {

@@ -33,12 +33,7 @@ namespace ListaUm
         {
             nome = nome.Replace(" ", String.Empty);
 
-            if (!generosMusicais.Contains(nome.ToLower()))
-            {
-                generosMusicais.Add(nome);
-                Console.WriteLine("Genero musical adicionado!");
-            }
-            else { Console.WriteLine("Genero musical jah existente"); }
+            if (!generosMusicais.Contains(nome.ToLower())) generosMusicais.Add(nome); 
         }
 
         public void AddAlbum(Album album)
